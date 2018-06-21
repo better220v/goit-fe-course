@@ -1,0 +1,9 @@
+section {
+    font-size: 0;
+}
+div { 
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+}
