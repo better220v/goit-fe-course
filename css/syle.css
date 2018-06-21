@@ -1,9 +1,16 @@
 section {
     font-size: 0;
+    margin: 0 auto;
+    width: 900px;
 }
 div { 
-    text-align: center;
-    width: 50%;
+    width: 420px;
     display: inline-block;
     font-size: 14px;
+}
+div:first-child {
+    margin-right: 60px;
+}
+img {
+    width: 420px;
 }
