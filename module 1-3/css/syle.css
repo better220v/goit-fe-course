@@ -31,6 +31,13 @@ li a {
 .features-list-about {
     line-height: 24px;
 }
+button {
+    line-height: 24px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    
+}
 .visually-hidden {
     position: absolute;
   clip: rect(0 0 0 0);
@@ -39,3 +46,4 @@ li a {
   margin: -1px;
   …
 }
+
