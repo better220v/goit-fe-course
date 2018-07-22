@@ -1,19 +1,41 @@
-nav {
-    display: inline-block;
-}
-section {
-    font-size: 0;
-    margin: 0 auto;
-    width: 900px;
-}
-div { 
-    width: 420px;
-    display: inline-block;
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
     font-size: 14px;
 }
-div:first-child {
-    margin-right: 60px;
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    
 }
-img {
-    width: 420px;
+li a {
+    text-decoration: none;
+    line-height: 16px;
+}
+.features-list {
+    list-style: none;    
+}
+.lifestyle {
+    font-size: 14px;
+    color: #b4ad9e;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+
+}
+.features-list-name {
+    line-height: 36px;
+    font-size: 30px;
+}
+.features-list-about {
+    line-height: 24px;
+}
+.visually-hidden {
+    position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  …
 }
