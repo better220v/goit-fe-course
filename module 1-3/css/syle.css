@@ -36,7 +36,15 @@ button {
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     color: #626262;
-    
+    border-width: 1px;
+    border-color: #626262;
+    border-style: solid;
+    position: absolute;
+    left: 507px;
+    top: 1949px;
+    width: 162px;
+    height: 58px;
+    z-index: 3;
 }
 .visually-hidden {
     position: absolute;
@@ -47,3 +55,4 @@ button {
   …
 }
 
+  
