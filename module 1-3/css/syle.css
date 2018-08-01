@@ -72,8 +72,7 @@ section {
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    width: 63px;
-
+    text-align: left;
 }
 .button {
     display: inline-block;
