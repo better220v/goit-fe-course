@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Playfair Display', serif;
     font-size: 0px;
@@ -15,6 +19,7 @@ nav {
 .menu {
     margin: 0 auto;
     text-align: center;
+    color: #626262;
 }
 .menu :last-child {
     padding: 0px;
@@ -35,16 +40,12 @@ section {
 
 }
 .features-list-item-l {
-    width: 420px;
-    height: 478px;
     display: inline-block;
     text-align: center;
     margin-left: 115px;
 
 }
 .features-list-item-r {
-    width: 420px;
-    height: 478px;
     display: inline-block;
     text-align: center;
     margin-left: 59px;
@@ -59,7 +60,6 @@ section {
     line-height: 24px;
     text-align: left;
     width: 414px;
-    height: 63px;
     color: #626262;
     font-family: "Playfair Display";
     font-size: 14px;
@@ -73,27 +73,19 @@ section {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     width: 63px;
-    height: 11px;
 
 }
-button {
-    background-color: #ffffff;
-    border-width: 1px;
-    border-color:#626262;
-    border-style: solid;
-    width: 162px;
-    height: 58px;
-    margin: 54px 529px 70px 507px;
-  }
 .button {
-    width: 96px;
-    height: 17px;
+    display: inline-block;
     color: #626262;
     font-family: "Playfair Display";
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-decoration: none;
+    padding: 15px;
+    border: 1px solid #626262;
+    margin: 54px 529px 70px 507px;
 
   }
 .visually-hidden {
