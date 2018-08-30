@@ -73,19 +73,20 @@ section {
     font-weight: 300;
     text-align: left;
 }
-.button {
+button {
     display: inline-block;
+    background-color: #fff;
     color: #626262;
     font-family: "Playfair Display";
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-decoration: none;
-    padding: 32px;
     border: 1px solid #626262;
     margin: 54px 529px 70px 507px;
-
-  }
+    width: 167px;
+    height: 63px;
+}
 .visually-hidden {
     position: absolute;
     clip: rect(0 0 0 0);
