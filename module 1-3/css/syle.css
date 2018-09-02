@@ -80,19 +80,17 @@ section :first-child {
     text-align: left;
     padding-top: 31px;
 }
-button {
-    display: inline-block;
-    background-color: #fff;
+.button {
+    display: block;
     color: #626262;
-    font-family: "Playfair Display";
     font-size: 20px;
-    font-weight: 400;
     line-height: 24px;
     text-decoration: none;
+    text-align: center;
     border: 1px solid #626262;
     margin: 54px 529px 70px 507px;
     width: 162px;
-    height: 58px;
+    padding: 20px 0;
 }
 .visually-hidden {
     position: absolute;
