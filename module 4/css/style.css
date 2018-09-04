@@ -39,10 +39,9 @@ li a {
     text-transform: uppercase;
     font-weight: bold;
 }
-.clearfix {
+.clearfix::after {
     content: '';
     display: table;
-    width: 100%;
     clear: both;
 }
 
@@ -75,7 +74,7 @@ h2::after {
     margin: 0px;
 }
 
-.galery__item {
+.galery__item__a {
     height: 322px;
     width: 255px;
     float: left;
@@ -103,10 +102,10 @@ h2::after {
     line-height: 40px;
 }
 
-galery__item_conteiner:hover galery__item {
-    background-color: #1abc9c;
+.galery__item:hover {
+    opacity: 1;
+    background: #e9f0fd;
 }
-
 
 .blog__item {
     width: 350px;
