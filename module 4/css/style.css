@@ -85,7 +85,7 @@ h2::after {
 .left {
     float: left;
     width: 225px;
-    padding: 8px;
+    height: 40px;
     background-color: #323232;
     margin: 0px;
 
@@ -93,9 +93,9 @@ h2::after {
 
 .right {
     float: right;
+    height: 40px;
     width: 30px;
     background-color: #8c8c8c;
-    padding: 8px;
 }
 
 .blog__item {
