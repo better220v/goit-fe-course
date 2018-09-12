@@ -1,6 +1,6 @@
 body {
     background: #fff;
-    font-family: 'OpenSans: 300,400,600,700,800', 'Roboto: 100,300,400,500,700,900', sans-serif, arial;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
 .conteiner {
@@ -46,7 +46,7 @@ li a {
 }
 
 .title {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     color: #515151;
     font-size: 48px;
     text-align: center;
@@ -81,30 +81,36 @@ h2::after {
     margin: 0 30px 30px 0;
 }
 
+/*пытался сделать ховер эффект*/
+/*.hover-element {
+    position: absolute;
+    content: '';
+    height: 325px;
+    width: 255px;
+}*/
+
 .left {
     float: left;
-    width: 225px;
+    width: 223px;
     height: 40px;
     color: #fff;
     background-color: #323232;
     text-align: center;
     line-height: 40px;
-
 }
 
 .right {
     float: right;
     height: 40px;
-    width: 30px;
+    width: 32px;
     color: #fff;
     background-color: #8c8c8c;
     text-align: center;
     line-height: 40px;
 }
-
-.galery__item:hover {
-    opacity: 1;
-    background: #e9f0fd;
+/* так как в макете не получаеться сделать, где можно прочитать об этом?*/
+.galery__item__a:hover {
+    background-color: #e9f0fd;
 }
 
 .blog__item {
@@ -123,7 +129,7 @@ h2::after {
 }
 
 h3 {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
@@ -139,7 +145,7 @@ h3::after {
 }
 
 .blog__p {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 26px;
 }
