@@ -79,6 +79,7 @@ h2::after {
     width: 255px;
     float: left;
     margin: 0 30px 30px 0;
+    background: #e9f0fd;
 }
 
 /*пытался сделать ховер эффект*/
@@ -108,9 +109,10 @@ h2::after {
     text-align: center;
     line-height: 40px;
 }
-/* так как в макете не получаеться сделать, где можно прочитать об этом?*/
-.galery__item__a:hover {
+/* так как в макете не получаеться сделать, где можно прочитать об этом? как правильно применить опасити? */
+.galery__item:hover .left+.right {
     background-color: #e9f0fd;
+    opacity: 0.7;
 }
 
 .blog__item {
