@@ -11,6 +11,18 @@ body {
 .logo {
     margin-top: 38px;
     float: left;
+    display: inline-block;
+    color: #898787;
+    font-family: "Roboto";
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo::first-letter {
+    content: "";
+    color: #1abc9c;
+    font-weight: bold;
 }
 
 nav {
@@ -24,13 +36,12 @@ ul {
 
 ul li {
     display: block;
-    float: left;
+    float: right;
     margin-right: 30px;
-
 }
 
-ul li:hover a {
-    color: #1abc9c;
+ul li:first-child {
+    margin-right: 0px;
 }
 
 li a {
@@ -38,7 +49,15 @@ li a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: bold;
 }
+
+ul li:hover a {
+    color: #1abc9c;
+}
+
 .clearfix::after {
     content: '';
     display: table;
@@ -51,10 +70,9 @@ li a {
     font-size: 48px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: 100px;
     display: block;
-    line-height: 32px;
 }
 
 h2 {
@@ -65,30 +83,26 @@ h2::after {
     display: block;
     width: 165px;
     height: 7px;
-    background-color: #1abc9c;
+    background: #1abc9c;
     content: '';
     margin: 32px auto;
-}
-
-.galery__item_conteiner :last-child {
-    margin: 0px;
 }
 
 .galery__item__a {
     height: 322px;
     width: 255px;
     float: left;
-    margin: 0 30px 30px 0;
+    margin: 0 22px 30px 0;
     background: #e9f0fd;
 }
 
-/*пытался сделать ховер эффект*/
-/*.hover-element {
-    position: absolute;
-    content: '';
-    height: 325px;
-    width: 255px;
-}*/
+.galery__item:hover .left{
+    background: #1abc9c;
+}
+
+.galery__item:hover .right {
+    background: #7fd9c7;
+}
 
 .left {
     float: left;
@@ -108,11 +122,6 @@ h2::after {
     background-color: #8c8c8c;
     text-align: center;
     line-height: 40px;
-}
-/* так как в макете не получаеться сделать, где можно прочитать об этом? как правильно применить опасити? */
-.galery__item:hover .left+.right {
-    background-color: #e9f0fd;
-    opacity: 0.7;
 }
 
 .blog__item {
