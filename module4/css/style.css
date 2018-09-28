@@ -92,13 +92,13 @@ h2::after {
     height: 322px;
     width: 255px;
     float: left;
-    margin-right: 22px;
+    margin-right: 30px;
     margin-bottom: 30px;
     background: #e9f0fd;
 }
 
-.galery__item__a:last-child {
-    margin: 0px;
+.last {
+    margin-right: 0px;
 }
 
 .galery__item:hover .name__product {
@@ -129,7 +129,7 @@ h2::after {
     height: 40px;
     width: 32px;
     color: #fff;
-    background: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.5);
     /* opacity: 0.7; */
     text-align: center;
     line-height: 40px;
