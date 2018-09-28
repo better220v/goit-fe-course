@@ -45,7 +45,7 @@ ul li:first-child {
 }
 
 li a {
-    color: #1f1212;
+    color: #000;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -65,7 +65,7 @@ ul li:hover a {
 }
 
 .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #515151;
     font-size: 48px;
     text-align: center;
@@ -172,6 +172,10 @@ h3::after {
     display: block;
     text-align: center;
 }
+
+.button:active {
+    background: #1abc9c;
+  } 
 
 
 
