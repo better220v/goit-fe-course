@@ -40,6 +40,10 @@ ul li {
     margin-right: 30px;
 }
 
+nav ul li:first-child {
+    margin-right: 0px;
+}
+
 li a {
     color: #000;
     text-decoration: none;
@@ -67,7 +71,7 @@ ul li:hover a {
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
-    margin-top: 10%;
+    padding-top: 10%;
     display: block;
 }
 
@@ -88,8 +92,13 @@ h2::after {
     height: 322px;
     width: 255px;
     float: left;
-    margin: 0 22px 30px 0;
+    margin-right: 22px;
+    margin-bottom: 30px;
     background: #e9f0fd;
+}
+
+.galery__item__a:last-child {
+    margin: 0px;
 }
 
 .galery__item:hover .name__product {
@@ -100,12 +109,17 @@ h2::after {
     background: #7fd9c7;
 }
 
+.rectangle {
+    background-color: #323232;
+    height: 40px;
+}
+
 .name__product {
     float: left;
     width: 223px;
     height: 40px;
     color: #fff;
-    background-color: #323232;
+    /* background-color: #323232; */
     text-align: center;
     line-height: 40px;
 }
@@ -115,7 +129,8 @@ h2::after {
     height: 40px;
     width: 32px;
     color: #fff;
-    background-color: #8c8c8c;
+    background: rgba(255,255,255,0.5);
+    /* opacity: 0.7; */
     text-align: center;
     line-height: 40px;
 }
