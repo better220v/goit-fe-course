@@ -92,15 +92,15 @@ h2::after {
     background: #e9f0fd;
 }
 
-.galery__item:hover .left{
+.galery__item:hover .name__product {
     background: #1abc9c;
 }
 
-.galery__item:hover .right {
+.galery__item:hover .price__prodact {
     background: #7fd9c7;
 }
 
-.left {
+.name__product {
     float: left;
     width: 223px;
     height: 40px;
@@ -110,7 +110,7 @@ h2::after {
     line-height: 40px;
 }
 
-.right {
+.price__prodact {
     float: right;
     height: 40px;
     width: 32px;
