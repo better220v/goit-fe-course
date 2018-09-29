@@ -136,7 +136,7 @@ section {
     transform: translateX( -50%);
     top: 35%;
 }
-
+/* ----------MAIN---------------- */
 .tours-title {
     font-size: 60px;
     text-transform: uppercase;
@@ -227,11 +227,134 @@ main {
     background: #7fd9c7;
 }
 
+.overlay {
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    position: absolute;
+    width: 235px;
+    height: 261px;
+    z-index: 25;
+}
 
+.colection__item:hover .overlay {
+    opacity: 0.549;
+}
 
+.button__heart {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    top: 79px;
+    left: 35px;
+    background-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+.button__two-rows {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    top: 79px;
+    left: 94px;
+    background-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+.button__clock {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    top: 79px;
+    left: 151px;
+    background-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+.button__busket {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 134px;
+    left: 35px;
+    width: 161px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    z-index: 4;
+}
+
+button:hover {
+    background: rgb(26, 188, 156);
+    opacity: 1;
+}
+
+.add__to__cart {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 32px;
+    text-align: right;
+    display: inline-block;
+}
+.button__busket:hover {
+    background-color: #323232;
+    opacity: 1;
+}
+/* ---------FOOTER---------- */
 footer {
     height: 86px;
     width: 100%;
     background-color: #323232;
 }
 
+.footer {
+    background-color: rgb(50, 50, 50);
+}
+
+.contact {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.footer-menu {
+    text-align: center;
+}
+
+.footer-item {
+    display: inline-block;
+    padding-top: 35px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Roboto";
+    font-weight: lighter;
+}
+
+.nick {
+    font-family: "Roboto";
+    color: rgb(78, 198, 171);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: lighter;
+}
+
+  
