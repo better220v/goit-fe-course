@@ -231,7 +231,7 @@ main {
     border-width: 10px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.549);
     opacity: 0;
     position: absolute;
     width: 235px;
@@ -242,7 +242,6 @@ main {
 .colection__item:hover .overlay {
     opacity: 0.549;
 }
-
 .button__heart {
     position: absolute;
     width: 45px;
@@ -250,10 +249,13 @@ main {
     color: rgb(255, 255, 255);
     top: 79px;
     left: 35px;
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
+    opacity: 0;
+    z-index: 50;
+    
 }
 
 .button__two-rows {
@@ -263,10 +265,12 @@ main {
     color: rgb(255, 255, 255);
     top: 79px;
     left: 94px;
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
+    opacity: 0;
+    z-index: 50;
 }
 
 .button__clock {
@@ -276,10 +280,12 @@ main {
     color: rgb(255, 255, 255);
     top: 79px;
     left: 151px;
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
+    opacity: 0;
+    z-index: 50;
 }
 
 .button__busket {
@@ -289,18 +295,29 @@ main {
     left: 35px;
     width: 161px;
     height: 45px;
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    z-index: 4;
+    opacity: 0;
+    z-index: 50;
 }
-
-button:hover {
-    background: rgb(26, 188, 156);
+.colection__item:hover .button__heart {
     opacity: 1;
+    background-color: #1abc9c;
+} 
+.colection__item:hover .button__two-rows {
+    opacity: 1;
+    background-color: #1abc9c;
 }
-
+.colection__item:hover .button__clock {
+    opacity: 1;
+    background-color: #1abc9c;
+}
+.colection__item:hover .button__busket {
+    opacity: 1;
+    background-color: #323232;
+}
 .add__to__cart {
     font-size: 14px;
     font-family: "Roboto";
@@ -310,10 +327,6 @@ button:hover {
     line-height: 32px;
     text-align: right;
     display: inline-block;
-}
-.button__busket:hover {
-    background-color: #323232;
-    opacity: 1;
 }
 /* ---------FOOTER---------- */
 footer {
