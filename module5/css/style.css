@@ -231,7 +231,7 @@ main {
     border-width: 10px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    background-color: rgba(0, 0, 0, 0.549);
+    background-color: rgb(0, 0, 0);
     opacity: 0;
     position: absolute;
     width: 235px;
@@ -241,6 +241,13 @@ main {
 
 .colection__item:hover .overlay {
     opacity: 0.549;
+}
+
+.colection__item:hover .overlay__buttons {
+    opacity: 1;
+}
+.overlay__buttons {
+    opacity: 0;
 }
 .button__heart {
     position: absolute;
@@ -253,7 +260,7 @@ main {
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    opacity: 0;
+    /* opacity: 0; */
     z-index: 50;
     
 }
@@ -269,7 +276,7 @@ main {
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    opacity: 0;
+    /* opacity: 0; */
     z-index: 50;
 }
 
@@ -284,7 +291,7 @@ main {
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    opacity: 0;
+    /* opacity: 0; */
     z-index: 50;
 }
 
@@ -299,22 +306,22 @@ main {
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    opacity: 0;
+    /* opacity: 0; */
     z-index: 50;
 }
-.colection__item:hover .button__heart {
+.button__heart:hover {
     opacity: 1;
     background-color: #1abc9c;
 } 
-.colection__item:hover .button__two-rows {
+.button__two-rows:hover {
     opacity: 1;
     background-color: #1abc9c;
 }
-.colection__item:hover .button__clock {
+.button__clock:hover {
     opacity: 1;
     background-color: #1abc9c;
 }
-.colection__item:hover .button__busket {
+.button__busket:hover {
     opacity: 1;
     background-color: #323232;
 }
