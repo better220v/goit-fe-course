@@ -14,8 +14,6 @@ body {
     clear: both;
 }
 
-
-
 .header__container {
     width: 100%;
     height: 96px;
@@ -122,10 +120,18 @@ section {
 }
 
 .slider-ctrl-left {
+    background-image: url(../img/row-left.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     left: 0;
 }
 
 .slider-ctrl-right {
+    background-image: url(../img/row-right.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     right: 0;
 }
 
@@ -201,6 +207,7 @@ main {
     width: 223px;
     height: 40px;
     color: #fff;
+    background-color: #323232;
     text-align: center;
     line-height: 40px;
 }
@@ -210,7 +217,7 @@ main {
     height: 40px;
     width: 32px;
     color: #fff;
-    background-color: rgba(255,255,255,0.5);
+    background-color: #8c8c8c;
     text-align: center;
     line-height: 40px;
 }
