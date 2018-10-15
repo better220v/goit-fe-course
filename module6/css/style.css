@@ -1,0 +1,128 @@
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+
+}
+.link-logo {
+    text-decoration: none;
+}
+.logo {
+    font-family: 'Montserrat', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #95e1d3;
+}
+.menu-navigation {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #95e1d3;
+    transition: 0.3s ease;
+}
+.menu-item:hover .menu-link {
+    color: #f38181;
+    border-bottom: 3px solid #f38181;
+}
+/* title-services */
+.title-services {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title-services::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    display: block;
+    margin: 40px auto 0;
+}
+.title-first {
+    color: #333333;
+    font-size: 24px;
+    font-family: 'Kaushan Script', serif;
+    line-height: 1.2;
+}
+.title-second {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+.services-item {
+    display: inline-block;
+    width: 270px;
+
+}
+/* after img */
+.alarm::before {
+    content: '';
+    background-image: url(../img/alarm.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    display: block;
+}
+.linegraph::before {
+    content: '';
+    background-image: url(../img/linegraph.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    display: block;
+}
+.computerok::before {
+    content: '';
+    background-image: url(../img/computerok.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    display: block;
+}
+.book::before {
+    content: '';
+    background-image: url(../img/book.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    display: block;
+}
+.home::before {
+    content: '';
+    background-image: url(../img/home.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    display: block;
+}
+.digital::before {
+    content: '';
+    background-image: url(../img/IMAGE2.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    display: block;
+}
+
+
+  
